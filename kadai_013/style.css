@@ -87,7 +87,7 @@ PC用のスタイル
   }
   
   #menu-sp {
-    float: left;
+    float: right;
     padding: 0;
   }
   
@@ -95,7 +95,7 @@ PC用のスタイル
     background-color: #ce933e;
     position: absolute;
     left: 0;
-    right: 0;
+    top: 0;
     height: 100%;
     width: 100%;
     display: none;
@@ -120,7 +120,7 @@ PC用のスタイル
     color: #fff;
   }
 
-  #nav-sp > a:valid {
+  #nav-sp > a:visited {
     color: #fff;
   }
 
